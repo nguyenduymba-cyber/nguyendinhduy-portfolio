@@ -1,1129 +1,543 @@
 <!DOCTYPE html>
-<html lang="vi" class="scroll-smooth">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyễn Đình Duy | Agency Operations & Growth Architect — Insurance OPEX Leader</title>
+    <title>Nguyễn Đình Duy · Business Development Consultant</title>
+    <meta name="description" content="Nguyễn Đình Duy. Hơn 10 năm trực tiếp vận hành văn phòng đại lý bảo hiểm nhân thọ. Tư vấn tuyển dụng, đào tạo, coaching quản lý và nhịp vận hành cho kênh đại lý.">
 
-    <!-- Meta Data -->
-    <meta name="description" content="Hồ sơ năng lực lãnh đạo cấp cao của Nguyễn Đình Duy — Kiến trúc sư Vận hành & Tăng trưởng Kênh Đại lý (Agency Operations & Growth Architect), ngành Bảo hiểm Nhân thọ.">
-    <meta property="og:title" content="Nguyễn Đình Duy | Agency Operations & Growth Architect">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Nguyễn Đình Duy · Business Development Consultant">
+    <meta property="og:description" content="Hơn 10 năm trực tiếp vận hành văn phòng đại lý bảo hiểm nhân thọ tại miền Bắc.">
+    <meta property="og:image" content="https://nguyenduymba-cyber.github.io/nguyendinhduy-portfolio/assets/nguyen-dinh-duy.jpg">
+    <meta property="og:url" content="https://nguyenduymba-cyber.github.io/nguyendinhduy-portfolio/">
+    <meta name="theme-color" content="#000000">
 
-    <!-- Premium Google Fonts: Playfair Display (Serif) & Plus Jakarta Sans (Geometric Sans) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d1d1f'/%3E%3Ctext x='32' y='41' font-family='-apple-system,Helvetica,Arial' font-weight='600' font-size='24' fill='%23fff' text-anchor='middle'%3END%3C/text%3E%3C/svg%3E">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="assets/nguyen-dinh-duy.webp">
 
-    <!-- Tailwind CSS CDN -->
+    <script>document.documentElement.classList.add('js');</script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        alabaster: {
-                            50: '#FBFBF9',
-                            100: '#F5F4EF',
-                            200: '#EAE8E0',
-                            300: '#DCD8CB',
-                        },
-                        charcoal: {
-                            900: '#121316',
-                            800: '#1C1D20',
-                            700: '#2B2C30',
-                            600: '#45464B',
-                            500: '#65666C',
-                            400: '#8B8C92',
-                        },
-                        bronze: {
-                            DEFAULT: '#9A7B4F',
-                            light: '#B79868',
-                            dark: '#8C6D3B',
-                            subtle: '#FAF5EC',
-                            border: '#DDCBAE',
-                        },
-                        forest: {
-                            900: '#122019',
-                            800: '#1B2E24',
-                            50: '#EFF4F1',
-                        }
+                        ink: '#1d1d1f',
+                        gray: { DEFAULT: '#6e6e73', light: '#a1a1a6', bg: '#f5f5f7', line: '#d2d2d7' },
+                        blue: { DEFAULT: '#0071e3', hover: '#0077ed', link: '#0066cc', dark: '#2997ff' },
                     },
                     fontFamily: {
-                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-                        sans: ['"Plus Jakarta Sans"', '-apple-system', 'sans-serif'],
-                    }
+                        sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', '"SF Pro Text"', 'Inter', '"Helvetica Neue"', 'Arial', 'sans-serif'],
+                    },
                 }
             }
         }
     </script>
 
     <style>
-        /* Quiet Luxury & Editorial Micro-Interactions */
         body {
-            background-color: #FBFBF9;
-            color: #2B2C30;
-            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: #fff;
+            color: #1d1d1f;
             -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        @media (prefers-reduced-motion: no-preference) {
+            html { scroll-behavior: smooth; }
+            .js .reveal {
+                opacity: 0;
+                transform: translateY(28px);
+                transition: opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+            }
+            .js .reveal.in { opacity: 1; transform: none; }
+        }
+        section[id] { scroll-margin-top: 3rem; }
+        .tabular { font-variant-numeric: tabular-nums; }
+
+        /* Display type: tight, like Apple product pages, with enough leading for Vietnamese stacked marks */
+        .display { letter-spacing: -0.028em; line-height: 1.1; font-weight: 600; }
+        .headline { letter-spacing: -0.022em; line-height: 1.12; font-weight: 600; }
+        /* Uppercase section titles: bold, slightly looser tracking than mixed case so capitals don't crowd */
+        .title-caps { font-weight: 700; letter-spacing: -0.012em; line-height: 1.15; }
+
+        /* Portrait blends into the black hero */
+        .portrait-mask {
+            -webkit-mask-image: radial-gradient(ellipse 56% 62% at 50% 40%, #000 46%, transparent 100%);
+                    mask-image: radial-gradient(ellipse 56% 62% at 50% 40%, #000 46%, transparent 100%);
         }
 
-        .editorial-serif {
-            font-family: 'Playfair Display', Georgia, serif;
-        }
+        .chev::after { content: "›"; display: inline-block; margin-left: 0.3em; transition: transform 0.2s; }
+        .chev:hover::after { transform: translateX(2px); }
 
-        .hairline-border {
-            border-color: #E4E2DA;
-        }
-
-        .subtle-shadow {
-            box-shadow: 0 4px 20px -2px rgba(18, 19, 22, 0.05), 0 2px 6px -1px rgba(18, 19, 22, 0.03);
-        }
-
-        .card-elevated {
-            box-shadow: 0 12px 32px -4px rgba(18, 19, 22, 0.07), 0 4px 12px -2px rgba(18, 19, 22, 0.04);
-        }
-
-        /* Refined Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #FBFBF9;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #DCD8CB;
-            border-radius: 3px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #9A7B4F;
-        }
-
-        /* Understated entrance for the hero only — no scroll-triggered theatrics */
-        @keyframes riseIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .rise-in {
-            animation: riseIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
-        }
+        a, button { -webkit-tap-highlight-color: transparent; }
+        :focus-visible { outline: 2px solid #0071e3; outline-offset: 3px; border-radius: 6px; }
     </style>
 </head>
 
-<body class="selection:bg-bronze-light selection:text-white">
+<body class="font-sans text-[17px] leading-[1.6]">
 
-    <!-- Top Monogram & Navigation Masthead -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-alabaster-50/90 backdrop-blur-md border-b hairline-border transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 h-20 flex items-center justify-between">
+    <!-- Global nav -->
+    <header class="sticky top-0 z-50 bg-[rgba(22,22,23,0.82)] backdrop-blur-xl backdrop-saturate-150">
+        <div class="max-w-[1080px] mx-auto px-6 h-12 flex items-center justify-between">
+            <a href="#top" class="text-[15px] font-semibold text-[#f5f5f7] tracking-tight">Nguyễn Đình Duy</a>
 
-            <!-- Executive Signature Monogram -->
-            <a href="#hero" class="flex items-center gap-3.5 group">
-                <div class="w-10 h-10 border border-charcoal-900 flex items-center justify-center bg-charcoal-900 text-alabaster-50 transition-colors duration-300 group-hover:bg-bronze group-hover:border-bronze">
-                    <span class="editorial-serif font-bold text-sm tracking-widest">ND</span>
-                </div>
-                <div>
-                    <span class="editorial-serif font-bold tracking-tight text-charcoal-900 text-base sm:text-lg block leading-tight">
-                        NGUYỄN ĐÌNH DUY
-                    </span>
-                    <span class="text-[10px] font-semibold tracking-widest text-bronze uppercase block">
-                        Agency Operations &amp; Growth Architect
-                    </span>
-                </div>
-            </a>
-
-            <!-- Editorial Nav -->
-            <nav class="hidden md:flex items-center gap-8 text-xs font-medium tracking-widest uppercase text-charcoal-600">
-                <a href="#opex" class="hover:text-bronze transition-colors">Mô Hình OPEX</a>
-                <a href="#frameworks" class="hover:text-bronze transition-colors">Hệ Thống Đào Tạo</a>
-                <a href="#competencies" class="hover:text-bronze transition-colors">Khung Năng Lực</a>
-                <a href="#proven-path" class="hover:text-bronze transition-colors">Hành Trình Sự Nghiệp</a>
-                <a href="#credentials" class="hover:text-bronze transition-colors">Bằng Khen &amp; Học Vị</a>
+            <nav class="hidden md:flex items-center gap-8 text-[13px] text-[#d6d6db]" aria-label="Điều hướng chính">
+                <a href="#nang-luc" class="hover:text-white transition-colors duration-200">Năng lực</a>
+                <a href="#bai-toan" class="hover:text-white transition-colors duration-200">Vấn đề</a>
+                <a href="#cach-lam" class="hover:text-white transition-colors duration-200">Cách tiếp cận</a>
+                <a href="#chuong-trinh" class="hover:text-white transition-colors duration-200">Chương trình</a>
+                <a href="#kinh-nghiem" class="hover:text-white transition-colors duration-200">Kinh nghiệm</a>
+                <a href="#lien-he" class="h-7 px-3.5 inline-flex items-center rounded-full bg-blue text-white text-[12px] font-medium hover:bg-blue-hover transition-colors duration-200">Liên hệ</a>
             </nav>
 
-            <!-- Direct Channel Button -->
-            <div class="hidden sm:flex items-center gap-3">
-                <button onclick="openExecutiveModal()" class="px-5 py-2.5 text-xs font-semibold tracking-wider uppercase bg-charcoal-900 text-alabaster-50 hover:bg-bronze transition-colors duration-300 flex items-center gap-2">
-                    <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
-                    Executive Summary
-                </button>
-                <a href="#contact" class="px-5 py-2.5 text-xs font-semibold tracking-wider uppercase border border-charcoal-900 text-charcoal-900 hover:bg-charcoal-900 hover:text-alabaster-50 transition-all duration-300">
-                    Liên Hệ Hợp Tác
-                </a>
-            </div>
-
-            <!-- Mobile Menu Toggle -->
-            <button id="mobileMenuBtn" class="md:hidden p-2 text-charcoal-900" aria-label="Toggle Navigation">
-                <i data-lucide="menu" class="w-5 h-5"></i>
+            <button id="menuButton" type="button" class="md:hidden w-11 h-11 -mr-3 flex items-center justify-center text-[#f5f5f7] cursor-pointer" aria-label="Mở menu" aria-expanded="false" aria-controls="mobileMenu">
+                <svg id="iconMenu" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M2 6h14M2 12h14"/></svg>
+                <svg id="iconClose" class="hidden" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14"/></svg>
             </button>
         </div>
 
-        <!-- Mobile Navigation Menu -->
-        <div id="mobileNavMenu" class="hidden md:hidden bg-alabaster-50 border-b hairline-border px-6 py-6 space-y-4 text-xs font-semibold tracking-wider uppercase">
-            <a href="#opex" onclick="closeMobileNav()" class="block text-charcoal-700 hover:text-bronze">Mô Hình Vận Hành OPEX</a>
-            <a href="#frameworks" onclick="closeMobileNav()" class="block text-charcoal-700 hover:text-bronze">Hệ Thống Đào Tạo &amp; AI</a>
-            <a href="#competencies" onclick="closeMobileNav()" class="block text-charcoal-700 hover:text-bronze">Khung Năng Lực Cốt Lõi</a>
-            <a href="#proven-path" onclick="closeMobileNav()" class="block text-charcoal-700 hover:text-bronze">Hành Trình Sự Nghiệp</a>
-            <a href="#credentials" onclick="closeMobileNav()" class="block text-charcoal-700 hover:text-bronze">Bằng Khen &amp; Học Vị</a>
-            <div class="pt-2 flex flex-col gap-2">
-                <button onclick="openExecutiveModal(); closeMobileNav();" class="w-full py-3 bg-charcoal-900 text-alabaster-50 text-center">
-                    Xem Executive Summary
-                </button>
-                <a href="#contact" onclick="closeMobileNav()" class="w-full py-3 border border-charcoal-900 text-charcoal-900 text-center">
-                    Liên Hệ Trực Tiếp
-                </a>
+        <nav id="mobileMenu" class="hidden md:hidden bg-[#161617]" aria-label="Điều hướng trên di động">
+            <div class="max-w-[1080px] mx-auto px-6 pt-2 pb-8 flex flex-col text-[24px] font-semibold tracking-tight text-[#e8e8ed]">
+                <a href="#nang-luc" class="py-2.5">Năng lực</a>
+                <a href="#bai-toan" class="py-2.5">Vấn đề</a>
+                <a href="#cach-lam" class="py-2.5">Cách tiếp cận</a>
+                <a href="#chuong-trinh" class="py-2.5">Chương trình</a>
+                <a href="#kinh-nghiem" class="py-2.5">Kinh nghiệm</a>
+                <a href="#lien-he" class="py-2.5">Liên hệ</a>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <!-- Hero Section: Editorial & Intellectual Tone -->
-    <section id="hero" class="pt-36 pb-20 sm:pt-44 sm:pb-28 border-b hairline-border">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+    <main id="top">
 
-            <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <!-- Hero -->
+        <section class="bg-black text-[#f5f5f7] overflow-hidden">
+            <div class="max-w-[1080px] mx-auto px-6 grid md:grid-cols-2 items-center gap-0 md:gap-6 md:min-h-[min(760px,calc(100vh-48px))]">
+                <div class="order-2 md:order-1 pb-16 md:py-24 -mt-10 md:mt-0 relative z-10">
+                    <p class="text-[17px] sm:text-[19px] font-semibold text-gray-light">Nguyễn Đình Duy</p>
 
-                <!-- Left Editorial Column -->
-                <div class="lg:col-span-8 space-y-8 rise-in">
-
-                    <!-- Metadata Header Tag -->
-                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
-                        <span class="flex items-center gap-3">
-                            <span class="w-2 h-2 rounded-full bg-bronze"></span>
-                            <span class="text-[11px] font-semibold tracking-widest uppercase text-bronze">
-                                Executive Portfolio &amp; Leadership Dossier
-                            </span>
-                        </span>
-                        <span class="hidden sm:inline text-charcoal-400">|</span>
-                        <span class="text-[11px] tracking-widest uppercase text-charcoal-500 font-medium">
-                            Thái Nguyên • Bắc Ninh • Thị trường Miền Bắc
-                        </span>
-                    </div>
-
-                    <!-- Main Executive Headline -->
-                    <h1 class="editorial-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-charcoal-900 leading-[1.08]">
-                        Kiến trúc sư vận hành, <br class="hidden sm:inline">
-                        kiến tạo <span class="italic font-normal text-bronze">tăng trưởng bền vững</span> <br>
-                        cho kênh đại lý bảo hiểm.
+                    <h1 class="display mt-4 text-[44px] sm:text-[60px] lg:text-[72px]">
+                        Business Development Consultant
                     </h1>
 
-                    <!-- Executive Philosophy Quote -->
-                    <p class="text-base sm:text-lg text-charcoal-600 font-light leading-relaxed max-w-2xl">
-                        Với hơn <strong class="font-semibold text-charcoal-900">10 năm kinh nghiệm thực chiến</strong> trong ngành Bảo hiểm Nhân thọ tại các doanh nghiệp hàng đầu, tôi tiếp cận bài toán tăng trưởng kênh phân phối bằng tư duy <span class="text-charcoal-900 font-medium">Operational Excellence (OPEX)</span>: chuẩn hóa quy trình, triệt tiêu lãng phí vận hành, thiết lập kỷ luật cải tiến liên tục và ứng dụng AI để tối ưu năng suất đội ngũ — thay vì phụ thuộc vào cảm hứng hay may rủi thị trường.
+                    <p class="mt-5 text-[21px] sm:text-[24px] leading-[1.35] font-semibold tracking-tight text-[#f5f5f7] max-w-[30rem]">
+                        Ứng dụng tư duy Vận hành Xuất sắc (OpEx) trong công việc.
                     </p>
 
-                    <!-- Strategic Value Anchors (OPEX Pillars — Quality over Cliché Numbers) -->
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4 border-t hairline-border">
-                        <div class="space-y-1">
-                            <span class="text-xs font-semibold tracking-wider text-bronze uppercase">01. Standardization</span>
-                            <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Chuẩn Hóa Vận Hành</h4>
-                            <p class="text-xs text-charcoal-500 leading-relaxed">Đóng gói nghiệp vụ phức tạp thành quy trình đơn giản, dễ sao chép và nhân rộng trên toàn địa bàn.</p>
-                        </div>
-                        <div class="space-y-1">
-                            <span class="text-xs font-semibold tracking-wider text-bronze uppercase">02. Kaizen &amp; Cadence</span>
-                            <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Kỷ Luật Cải Tiến</h4>
-                            <p class="text-xs text-charcoal-500 leading-relaxed">Thiết lập nhịp sinh hoạt Business Review, Coaching 1:1 và quản trị đội ngũ bằng dữ liệu.</p>
-                        </div>
-                        <div class="space-y-1">
-                            <span class="text-xs font-semibold tracking-wider text-bronze uppercase">03. AI-Driven Efficiency</span>
-                            <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Năng Suất Bằng AI</h4>
-                            <p class="text-xs text-charcoal-500 leading-relaxed">Ứng dụng AI như công cụ tối ưu chi phí vận hành, tự động hóa kịch bản và tài liệu đào tạo.</p>
-                        </div>
-                    </div>
+                    <p class="mt-5 text-[19px] sm:text-[21px] leading-[1.45] text-gray-light max-w-[30rem]">
+                        Hơn 10 năm đồng hành cùng đội ngũ kinh doanh tại vị trí Phát triển Kinh doanh phụ trách các Văn phòng kinh doanh thuộc (Daiichi Life, Bảo Việt Nhân thọ).
+                    </p>
 
-                    <!-- Action Anchors -->
-                    <div class="flex flex-wrap items-center gap-4 pt-4">
-                        <a href="#contact" class="px-7 py-3.5 bg-charcoal-900 text-alabaster-50 hover:bg-bronze transition-colors duration-300 text-xs font-bold uppercase tracking-widest flex items-center gap-2">
-                            <i data-lucide="handshake" class="w-4 h-4"></i>
-                            Mời Phỏng Vấn / Trao Đổi Chiến Lược
+                    <div class="mt-9 flex flex-wrap items-center gap-x-7 gap-y-4">
+                        <a href="#lien-he" class="inline-flex items-center h-12 px-6 rounded-full bg-blue text-white text-[17px] hover:bg-blue-hover transition-colors duration-200">
+                            Đặt lịch trao đổi
                         </a>
-                        <a href="#frameworks" class="px-7 py-3.5 border border-charcoal-900 text-charcoal-900 hover:bg-charcoal-900 hover:text-alabaster-50 transition-all duration-300 text-xs font-bold uppercase tracking-widest flex items-center gap-2">
-                            <i data-lucide="layers" class="w-4 h-4"></i>
-                            Khám Phá 6 Khung Đào Tạo Đóng Gói
-                        </a>
+                        <a href="#nang-luc" class="chev text-[17px] text-blue-dark hover:underline underline-offset-4">Xem năng lực</a>
                     </div>
                 </div>
 
-                <!-- Right Profile & Target Positions Card -->
-                <div class="lg:col-span-4 space-y-6 rise-in" style="animation-delay: 0.12s;">
-                    <div class="bg-white border hairline-border p-7 space-y-6 subtle-shadow">
-
-                        <div class="flex items-center justify-between border-b hairline-border pb-4">
-                            <span class="text-[10px] font-bold tracking-widest text-charcoal-400 uppercase">CANDIDATE DOSSIER</span>
-                            <span class="text-[10px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
-                                Sẵn Sàng Đảm Nhiệm
-                            </span>
-                        </div>
-
-                        <div class="space-y-3">
-                            <h3 class="editorial-serif text-2xl font-bold text-charcoal-900">Nguyễn Đình Duy</h3>
-                            <p class="text-xs text-bronze font-semibold uppercase tracking-wider">
-                                Agency Operations &amp; Growth Architect
-                            </p>
-                            <p class="text-xs text-charcoal-500 flex items-center gap-1.5">
-                                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-bronze"></i>
-                                Thái Nguyên, Bắc Ninh &amp; Các Tỉnh Miền Bắc
-                            </p>
-                        </div>
-
-                        <!-- Targeted Roles List -->
-                        <div class="space-y-2 pt-3 border-t hairline-border">
-                            <span class="text-[10px] font-bold tracking-widest text-charcoal-400 uppercase block mb-2">VỊ TRÍ ĐỊNH HƯỚNG MỤC TIÊU:</span>
-
-                            <div class="p-2.5 bg-alabaster-100 border hairline-border text-xs text-charcoal-800 font-medium">
-                                ✦ Business Development Manager (BDM / BDOH)
-                            </div>
-                            <div class="p-2.5 bg-alabaster-100 border hairline-border text-xs text-charcoal-800 font-medium">
-                                ✦ Agency Development Manager (ADM)
-                            </div>
-                            <div class="p-2.5 bg-alabaster-100 border hairline-border text-xs text-charcoal-800 font-medium">
-                                ✦ Training &amp; Sales Enablement Leader
-                            </div>
-                            <div class="p-2.5 bg-alabaster-100 border hairline-border text-xs text-charcoal-800 font-medium">
-                                ✦ Giám đốc Kinh doanh Vùng / Khu vực
-                            </div>
-                        </div>
-
-                        <!-- Direct Contact Actions -->
-                        <div class="pt-2 grid grid-cols-2 gap-2">
-                            <button onclick="copyToClipboard('0964882333', 'Đã sao chép SĐT: 0964.882.333')" class="py-2.5 px-3 bg-alabaster-50 hover:bg-alabaster-200 border hairline-border text-[11px] font-semibold text-charcoal-800 flex items-center justify-center gap-1.5 transition">
-                                <i data-lucide="phone" class="w-3.5 h-3.5 text-bronze"></i> 0964.882.333
-                            </button>
-                            <button onclick="copyToClipboard('nguyenduymba@gmail.com', 'Đã sao chép Email: nguyenduymba@gmail.com')" class="py-2.5 px-3 bg-alabaster-50 hover:bg-alabaster-200 border hairline-border text-[11px] font-semibold text-charcoal-800 flex items-center justify-center gap-1.5 transition">
-                                <i data-lucide="mail" class="w-3.5 h-3.5 text-bronze"></i> Email
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-
+                <figure class="order-1 md:order-2 relative">
+                    <img
+                        src="assets/nguyen-dinh-duy.webp"
+                        width="948" height="1659"
+                        alt="Chân dung Nguyễn Đình Duy, vest xanh navy, cầm sổ tay"
+                        class="portrait-mask w-full max-w-[420px] md:max-w-none mx-auto h-[520px] sm:h-[600px] md:h-[720px] object-cover object-[50%_12%]"
+                        fetchpriority="high">
+                </figure>
             </div>
+        </section>
 
-        </div>
-    </section>
-
-    <!-- Proof Points Trust Strip — Authenticated Credentials, No Internal Figures -->
-    <section class="bg-white border-b hairline-border">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-            <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 hairline-border">
-                <div class="p-6 sm:p-8 flex flex-col items-center text-center gap-2">
-                    <i data-lucide="award" class="w-5 h-5 text-bronze"></i>
-                    <span class="editorial-serif text-sm font-bold text-charcoal-900 leading-snug">Bằng Khen<br>Bộ Tài Chính</span>
-                    <span class="text-[10px] text-charcoal-500 uppercase tracking-wider">Xuất sắc KD 2017–2018</span>
-                </div>
-                <div class="p-6 sm:p-8 flex flex-col items-center text-center gap-2">
-                    <i data-lucide="medal" class="w-5 h-5 text-bronze"></i>
-                    <span class="editorial-serif text-sm font-bold text-charcoal-900 leading-snug">Giấy Khen<br>Hiệp Hội Bảo Hiểm VN</span>
-                    <span class="text-[10px] text-charcoal-500 uppercase tracking-wider">10 Năm Cống Hiến IAV</span>
-                </div>
-                <div class="p-6 sm:p-8 flex flex-col items-center text-center gap-2">
-                    <i data-lucide="badge-check" class="w-5 h-5 text-bronze"></i>
-                    <span class="editorial-serif text-sm font-bold text-charcoal-900 leading-snug">Chứng Nhận CEC</span>
-                    <span class="text-[10px] text-charcoal-500 uppercase tracking-wider">John&amp;Partner 2024–2026</span>
-                </div>
-                <div class="p-6 sm:p-8 flex flex-col items-center text-center gap-2">
-                    <i data-lucide="history" class="w-5 h-5 text-bronze"></i>
-                    <span class="editorial-serif text-sm font-bold text-charcoal-900 leading-snug">10+ Năm</span>
-                    <span class="text-[10px] text-charcoal-500 uppercase tracking-wider">Thực Chiến Đa Địa Bàn</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- OPEX Operating Model — 4 Strategic Pillars -->
-    <section id="opex" class="py-24 bg-alabaster-100 border-b hairline-border">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-
-            <div class="max-w-3xl mb-16 space-y-3">
-                <span class="text-xs font-bold tracking-widest text-bronze uppercase">Operating Philosophy</span>
-                <h2 class="editorial-serif text-3xl sm:text-4xl font-bold text-charcoal-900">
-                    Mô Hình Vận Hành Xuất Sắc — OPEX Trong Kênh Đại Lý
-                </h2>
-                <p class="text-charcoal-600 text-sm leading-relaxed">
-                    Tăng trưởng bền vững của một kênh phân phối không đến từ các đợt phát động phong trào ngắn hạn, mà đến từ một hệ thống vận hành được chuẩn hóa, tinh gọn và cải tiến liên tục — nơi con người, quy trình và công nghệ cùng vận hành nhịp nhàng.
+        <!-- Statement + numbers -->
+        <section class="bg-white">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-36">
+                <p class="reveal headline text-[30px] sm:text-[40px] lg:text-[48px] max-w-[22ch] sm:max-w-[26ch]">
+                    Dưới đây là một số hoạt động tiêu biểu tôi đã triển khai <span class="text-gray">trên địa bàn phụ trách.</span>
                 </p>
+
+                <dl class="reveal mt-16 md:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-y-12 gap-x-8">
+                    <div>
+                        <dt class="sr-only">Số năm</dt>
+                        <dd class="display text-[56px] sm:text-[64px] leading-none tabular">10+</dd>
+                        <dd class="mt-3 text-[15px] text-gray leading-snug">năm trực tiếp ở kênh đại lý bảo hiểm nhân thọ</dd>
+                    </div>
+                    <div>
+                        <dt class="sr-only">Văn phòng</dt>
+                        <dd class="display text-[56px] sm:text-[64px] leading-none tabular">5</dd>
+                        <dd class="mt-3 text-[15px] text-gray leading-snug">Văn phòng Kinh doanh từng phụ trách tại Thái Nguyên</dd>
+                    </div>
+                    <div>
+                        <dt class="sr-only">Chương trình</dt>
+                        <dd class="display text-[56px] sm:text-[64px] leading-none tabular">6</dd>
+                        <dd class="mt-3 text-[15px] text-gray leading-snug">Chương trình huấn luyện tác động mạnh đến kết quả kinh doanh</dd>
+                    </div>
+                </dl>
             </div>
+        </section>
 
-            <!-- 4 OPEX Pillars -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-                <!-- Pillar 1: Standardization -->
-                <div class="bg-white p-8 border hairline-border flex flex-col justify-between space-y-6 subtle-shadow">
-                    <div class="space-y-4">
-                        <div class="w-8 h-8 border border-charcoal-900 flex items-center justify-center text-xs font-bold font-serif text-charcoal-900">
-                            01
-                        </div>
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze block">Standardization</span>
-                        <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Chuẩn Hóa Quy Trình</h3>
-                        <p class="text-xs text-charcoal-600 leading-relaxed">
-                            Đóng gói nghiệp vụ tư vấn và quản trị phức tạp thành các khung phương pháp đơn giản, dễ sao chép và nhân rộng — tiêu biểu là "Tư Vấn 3D" và "Quản Lý Thực Chiến: Bán Tốt – Tuyển Tinh – Luyện Giỏi".
-                        </p>
-                    </div>
-                    <div class="pt-4 border-t hairline-border text-[11px] font-semibold text-bronze uppercase tracking-wider">
-                        Trọng tâm: Hệ thống có thể nhân bản
-                    </div>
+        <!-- Core competencies: bento -->
+        <section id="nang-luc" class="bg-gray-bg">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-36">
+                <div class="reveal max-w-2xl">
+                    <h2 class="title-caps text-[32px] sm:text-[42px] lg:text-[48px]">NĂNG LỰC CỐT LÕI</h2>
+                    <p class="mt-4 text-[19px] sm:text-[21px] leading-[1.45] text-gray">Các hoạt động đã thực thi</p>
                 </div>
 
-                <!-- Pillar 2: Elimination of Waste -->
-                <div class="bg-white p-8 border hairline-border flex flex-col justify-between space-y-6 subtle-shadow">
-                    <div class="space-y-4">
-                        <div class="w-8 h-8 border border-charcoal-900 flex items-center justify-center text-xs font-bold font-serif text-charcoal-900">
-                            02
-                        </div>
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze block">Waste Elimination</span>
-                        <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Triệt Tiêu Lãng Phí Vận Hành</h3>
-                        <p class="text-xs text-charcoal-600 leading-relaxed">
-                            Rút ngắn thời gian chết của tư vấn viên mới, tối ưu chu kỳ từ đào tạo đến hợp đồng đầu tiên (Time-to-First-Case), tinh gọn quy trình họp và báo cáo để đội ngũ tập trung vào hoạt động tạo giá trị.
-                        </p>
-                    </div>
-                    <div class="pt-4 border-t hairline-border text-[11px] font-semibold text-bronze uppercase tracking-wider">
-                        Trọng tâm: Rút ngắn Time-to-First-Case
-                    </div>
-                </div>
+                <div class="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
 
-                <!-- Pillar 3: Kaizen & Cadence -->
-                <div class="bg-white p-8 border hairline-border flex flex-col justify-between space-y-6 subtle-shadow">
-                    <div class="space-y-4">
-                        <div class="w-8 h-8 border border-charcoal-900 flex items-center justify-center text-xs font-bold font-serif text-charcoal-900">
-                            03
-                        </div>
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze block">Kaizen &amp; Cadence</span>
-                        <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Kỷ Luật Cải Tiến Liên Tục</h3>
-                        <p class="text-xs text-charcoal-600 leading-relaxed">
-                            Thiết lập nhịp sinh hoạt đội ngũ theo chuẩn quản trị hiện đại — Daily/Weekly Business Review, Coaching 1:1 định kỳ — vận hành và ra quyết định dựa trên dữ liệu và mục tiêu hành động cụ thể.
-                        </p>
-                    </div>
-                    <div class="pt-4 border-t hairline-border text-[11px] font-semibold text-bronze uppercase tracking-wider">
-                        Trọng tâm: Quản trị bằng dữ liệu
-                    </div>
-                </div>
+                    <article class="reveal md:col-span-2 bg-white rounded-[28px] p-8 sm:p-10 flex flex-col">
+                        <svg class="w-8 h-8 text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></svg>
+                        <p class="mt-6 text-[15px] font-semibold text-gray">Vận hành văn phòng</p>
+                        <h3 class="headline mt-2 text-[26px] sm:text-[32px]">Nhận chỉ tiêu và lên kế hoạch thực thi cho Văn phòng kinh doanh.</h3>
+                        <p class="mt-4 text-gray max-w-xl">Lập kế hoạch tháng, quý. Phân bổ chỉ tiêu. Điều hành họp kinh doanh ngày và tuần. Theo dõi tỷ lệ đại lý hoạt động. Hoàn thành chỉ tiêu kinh doanh và tuyển dụng được giao nhiều năm liên tiếp.</p>
+                    </article>
 
-                <!-- Pillar 4: AI-Driven Efficiency -->
-                <div class="bg-white p-8 border hairline-border flex flex-col justify-between space-y-6 subtle-shadow">
-                    <div class="space-y-4">
-                        <div class="w-8 h-8 border border-charcoal-900 flex items-center justify-center text-xs font-bold font-serif text-charcoal-900">
-                            04
-                        </div>
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze block">AI-Driven Efficiency</span>
-                        <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Năng Suất Vận Hành Bằng AI</h3>
-                        <p class="text-xs text-charcoal-600 leading-relaxed">
-                            Ứng dụng trí tuệ nhân tạo như một công cụ tối ưu chi phí vận hành: tự động hóa sản xuất kịch bản tư vấn, tài liệu đào tạo và cá nhân hóa phương án tiếp cận theo từng tệp khách hàng.
-                        </p>
-                    </div>
-                    <div class="pt-4 border-t hairline-border text-[11px] font-semibold text-bronze uppercase tracking-wider">
-                        Trọng tâm: Tối ưu OPEX bằng công nghệ
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- 6 Proprietary Frameworks Section -->
-    <section id="frameworks" class="py-24 bg-alabaster-50 border-b hairline-border">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
-                <div>
-                    <span class="text-xs font-bold tracking-widest text-bronze uppercase">Intellectual Assets &amp; Training Systems</span>
-                    <h2 class="editorial-serif text-3xl sm:text-4xl font-bold text-charcoal-900 mt-2">
-                        6 Chương Trình &amp; Khung Đào Tạo Đã Đóng Gói
-                    </h2>
-                </div>
-                <p class="text-charcoal-600 text-xs sm:text-sm max-w-md leading-relaxed">
-                    Toàn bộ tài liệu, giáo án và quy trình được đúc kết từ thực tiễn hiện trường và sẵn sàng chuyển giao ngay lập tức cho doanh nghiệp.
-                </p>
-            </div>
-
-            <!-- Frameworks Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- Framework 1 -->
-                <div class="bg-white border hairline-border p-8 space-y-5 subtle-shadow hover:border-bronze transition-colors">
-                    <div class="flex items-center justify-between border-b hairline-border pb-3">
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze">FRAMEWORK 01</span>
-                        <i data-lucide="compass" class="w-4 h-4 text-charcoal-400"></i>
-                    </div>
-                    <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Chương Trình "Tư Vấn 3D"</h3>
-                    <p class="text-xs font-bold text-bronze uppercase tracking-wider">Đơn giản — Dễ hiểu — Dễ làm</p>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Chuẩn hóa cách tiếp cận và đối thoại với khách hàng về bảo hiểm nhân thọ. Giúp tư vấn viên mới nhanh chóng vượt qua nỗi sợ mở lời, trình bày giải pháp tài chính mạch lạc mà không gây cảm giác áp đặt.
-                    </p>
-                    <div class="pt-4 border-t hairline-border text-[11px] text-charcoal-500">
-                        ✦ Rút ngắn thời gian kích hoạt tư vấn viên mới
-                    </div>
-                </div>
-
-                <!-- Framework 2 -->
-                <div class="bg-white border hairline-border p-8 space-y-5 subtle-shadow hover:border-bronze transition-colors">
-                    <div class="flex items-center justify-between border-b hairline-border pb-3">
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze">FRAMEWORK 02</span>
-                        <i data-lucide="shield-check" class="w-4 h-4 text-charcoal-400"></i>
-                    </div>
-                    <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Quản Lý Thực Chiến</h3>
-                    <p class="text-xs font-bold text-bronze uppercase tracking-wider">Bán tốt — Tuyển tinh — Luyện giỏi</p>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Khung quản trị vận hành dành riêng cho Trưởng nhóm và Quản lý kinh doanh: từ phương pháp tuyển dụng chọn lọc ứng viên phù hợp, cách tổ chức phiên họp 1:1 định kỳ đến kỹ năng kèm cặp thực chiến ngoài thị trường.
-                    </p>
-                    <div class="pt-4 border-t hairline-border text-[11px] text-charcoal-500">
-                        ✦ Chuẩn hóa năng lực quản lý cấp cơ sở
-                    </div>
-                </div>
-
-                <!-- Framework 3 -->
-                <div class="bg-white border hairline-border p-8 space-y-5 subtle-shadow hover:border-bronze transition-colors">
-                    <div class="flex items-center justify-between border-b hairline-border pb-3">
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze">FRAMEWORK 03</span>
-                        <i data-lucide="sparkles" class="w-4 h-4 text-charcoal-400"></i>
-                    </div>
-                    <h3 class="editorial-serif text-xl font-bold text-charcoal-900">AI x Brand Personal x Năng Suất</h3>
-                    <p class="text-xs font-bold text-bronze uppercase tracking-wider">Ứng dụng AI cho Sales Force</p>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Ứng dụng AI tạo sinh vào hỗ trợ tư vấn viên: tự động hóa xây dựng kịch bản tư vấn theo từng tệp khách hàng, sản xuất tài liệu đào tạo tinh gọn và tối ưu hóa việc lập kế hoạch làm việc tuần/tháng.
-                    </p>
-                    <div class="pt-4 border-t hairline-border text-[11px] text-charcoal-500">
-                        ✦ Giải phóng thời gian tác nghiệp hành chính cho đội ngũ
-                    </div>
-                </div>
-
-                <!-- Framework 4 -->
-                <div class="bg-white border hairline-border p-8 space-y-5 subtle-shadow hover:border-bronze transition-colors">
-                    <div class="flex items-center justify-between border-b hairline-border pb-3">
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze">FRAMEWORK 04</span>
-                        <i data-lucide="video" class="w-4 h-4 text-charcoal-400"></i>
-                    </div>
-                    <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Xây Kênh &amp; Video Ngắn Chuyển Đổi</h3>
-                    <p class="text-xs font-bold text-bronze uppercase tracking-wider">Thu hút khách hàng &amp; ứng viên</p>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Huấn luyện đội ngũ xuất hiện tự tin trên các nền tảng video ngắn (TikTok, Reels, Shorts); xây dựng định vị chuyên gia tài chính đáng tin cậy để tạo dòng phễu tiếp cận ứng viên tiềm năng một cách tự nhiên.
-                    </p>
-                    <div class="pt-4 border-t hairline-border text-[11px] text-charcoal-500">
-                        ✦ Mở rộng tệp khách hàng vượt ra ngoài thị trường ấm
-                    </div>
-                </div>
-
-                <!-- Framework 5 -->
-                <div class="bg-white border hairline-border p-8 space-y-5 subtle-shadow hover:border-bronze transition-colors">
-                    <div class="flex items-center justify-between border-b hairline-border pb-3">
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze">FRAMEWORK 05</span>
-                        <i data-lucide="calculator" class="w-4 h-4 text-charcoal-400"></i>
-                    </div>
-                    <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Tài Chính Cá Nhân Trong BHNT</h3>
-                    <p class="text-xs font-bold text-bronze uppercase tracking-wider">Tư vấn có trách nhiệm &amp; chiều sâu</p>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Đưa tư duy hoạch định dòng tiền, quỹ dự phòng và cơ cấu tài sản vào quy trình tư vấn bảo hiểm, giúp khách hàng nhận thức rõ bảo hiểm nhân thọ là trụ cột bảo vệ nền tảng tài chính gia đình.
-                    </p>
-                    <div class="pt-4 border-t hairline-border text-[11px] text-charcoal-500">
-                        ✦ Nâng cao chất lượng hợp đồng và tỷ lệ duy trì K2
-                    </div>
-                </div>
-
-                <!-- Framework 6 -->
-                <div class="bg-white border hairline-border p-8 space-y-5 subtle-shadow hover:border-bronze transition-colors">
-                    <div class="flex items-center justify-between border-b hairline-border pb-3">
-                        <span class="text-[10px] font-bold tracking-widest uppercase text-bronze">FRAMEWORK 06</span>
-                        <i data-lucide="landmark" class="w-4 h-4 text-charcoal-400"></i>
-                    </div>
-                    <h3 class="editorial-serif text-xl font-bold text-charcoal-900">Hội Thảo Di Sản &amp; Phân Khúc SME</h3>
-                    <p class="text-xs font-bold text-bronze uppercase tracking-wider">Khai thác phân khúc mục tiêu</p>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Thiết kế chương trình hội thảo chuyên đề về bảo vệ và chuyển giao tài sản cho chủ doanh nghiệp vừa và nhỏ (SME), cùng chiến lược khai thác thị trường khách hàng xuất khẩu lao động tại địa phương.
-                    </p>
-                    <div class="pt-4 border-t hairline-border text-[11px] text-charcoal-500">
-                        ✦ Nâng cao chất lượng và quy mô hợp đồng
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Executive Competencies Matrix -->
-    <section id="competencies" class="py-24 bg-alabaster-100 border-b hairline-border">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-
-            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
-                <span class="text-xs font-bold tracking-widest text-bronze uppercase">Core Competency Matrix</span>
-                <h2 class="editorial-serif text-3xl sm:text-4xl font-bold text-charcoal-900">
-                    Năng Lực Lãnh Đạo &amp; Điều Hành Toàn Diện
-                </h2>
-                <p class="text-charcoal-600 text-sm">
-                    Sự kết hợp giữa Năng lực Vận hành thực chiến, Kỹ năng Dẫn giảng sư phạm và Tư duy Ứng dụng Công nghệ.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                <!-- Competency 1 -->
-                <div class="bg-white p-7 border hairline-border space-y-4">
-                    <div class="text-bronze text-sm font-bold flex items-center gap-2">
-                        <i data-lucide="trending-up" class="w-4 h-4"></i> OPEX &amp; QUẢN TRỊ KÊNH PHÂN PHỐI
-                    </div>
-                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Vận Hành &amp; Phát Triển Kênh Đại Lý</h4>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Chuyên sâu về lập kế hoạch hành động tháng/quý, phân bổ chỉ tiêu công bằng, kích hoạt phong trào thi đua và chủ trì các buổi Business Review định kỳ chuyên nghiệp.
-                    </p>
-                    <ul class="text-xs text-charcoal-700 space-y-1.5 pt-2 border-t hairline-border">
-                        <li>✦ Phân bổ và quản trị kế hoạch hành động chi tiết</li>
-                        <li>✦ Kích hoạt tỷ lệ hoạt động của đại lý định kỳ</li>
-                        <li>✦ Kiểm soát quy trình vận hành và tính tuân thủ</li>
-                    </ul>
-                </div>
-
-                <!-- Competency 2 -->
-                <div class="bg-white p-7 border hairline-border space-y-4">
-                    <div class="text-bronze text-sm font-bold flex items-center gap-2">
-                        <i data-lucide="graduation-cap" class="w-4 h-4"></i> HUẤN LUYỆN &amp; SALES ENABLEMENT
-                    </div>
-                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Đào Tạo Dẫn Giảng Thực Chiến</h4>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Trực tiếp thiết kế giáo trình và đứng lớp dẫn giảng; chuyển hóa các quy tắc bảo hiểm phức tạp thành các phương pháp dễ tiếp cận, dễ áp dụng cho đội ngũ bán hàng.
-                    </p>
-                    <ul class="text-xs text-charcoal-700 space-y-1.5 pt-2 border-t hairline-border">
-                        <li>✦ Dẫn giảng nghiệp vụ UVL, sản phẩm liên kết đầu tư</li>
-                        <li>✦ Huấn luyện kỹ năng xử lý từ chối và chốt hợp đồng</li>
-                        <li>✦ Xây dựng kịch bản tiếp cận khách hàng thực tế</li>
-                    </ul>
-                </div>
-
-                <!-- Competency 3 -->
-                <div class="bg-white p-7 border hairline-border space-y-4">
-                    <div class="text-bronze text-sm font-bold flex items-center gap-2">
-                        <i data-lucide="users" class="w-4 h-4"></i> PHÁT TRIỂN ĐỘI NGŨ
-                    </div>
-                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Coaching Quản Lý Kinh Doanh</h4>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Đồng hành và coaching 1:1 cho Trưởng ban, Trưởng nhóm về kỹ năng tuyển dụng, điều hành buổi họp nhóm đầu ngày và duy trì năng lượng tích cực cho đội ngũ.
-                    </p>
-                    <ul class="text-xs text-charcoal-700 space-y-1.5 pt-2 border-t hairline-border">
-                        <li>✦ Kèm cặp thực chiến hiện trường (Field Coaching)</li>
-                        <li>✦ Kỹ năng điều hành phiên họp 1:1 hiệu quả</li>
-                        <li>✦ Xử lý xung đột và xây dựng văn hóa đoàn kết</li>
-                    </ul>
-                </div>
-
-                <!-- Competency 4 -->
-                <div class="bg-white p-7 border hairline-border space-y-4">
-                    <div class="text-bronze text-sm font-bold flex items-center gap-2">
-                        <i data-lucide="mic" class="w-4 h-4"></i> THUYẾT TRÌNH &amp; HỘI NGHỊ
-                    </div>
-                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Hội Nghị Khách Hàng &amp; Tuyển Dụng</h4>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Kinh nghiệm dẫn dắt và thuyết trình chính tại các hội nghị khách hàng (COP), hội thảo tuyển dụng cơ hội nghề nghiệp (BOP) và các sự kiện vinh danh trang trọng.
-                    </p>
-                    <ul class="text-xs text-charcoal-700 space-y-1.5 pt-2 border-t hairline-border">
-                        <li>✦ Diễn giả chính tại các sự kiện tri ân khách hàng</li>
-                        <li>✦ Thuyết trình truyền cảm hứng về nghề bảo hiểm</li>
-                        <li>✦ Điều phối sự kiện KickOff, vinh danh cấp công ty</li>
-                    </ul>
-                </div>
-
-                <!-- Competency 5 -->
-                <div class="bg-white p-7 border hairline-border space-y-4">
-                    <div class="text-bronze text-sm font-bold flex items-center gap-2">
-                        <i data-lucide="bot" class="w-4 h-4"></i> CÔNG NGHỆ &amp; TĂNG TỐC
-                    </div>
-                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Chuyển Đổi Số &amp; AI Sales</h4>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Ứng dụng các công cụ trí tuệ nhân tạo vào sản xuất nội dung truyền thông, viết kịch bản video ngắn và hỗ trợ tư vấn viên phân tích nhu cầu khách hàng.
-                    </p>
-                    <ul class="text-xs text-charcoal-700 space-y-1.5 pt-2 border-t hairline-border">
-                        <li>✦ Tự động hóa tạo giáo án &amp; slide thuyết trình bằng AI</li>
-                        <li>✦ Kịch bản video ngắn xây dựng thương hiệu cá nhân</li>
-                        <li>✦ Tối ưu hóa quy trình làm việc và giải phóng thời gian</li>
-                    </ul>
-                </div>
-
-                <!-- Competency 6 -->
-                <div class="bg-white p-7 border hairline-border space-y-4">
-                    <div class="text-bronze text-sm font-bold flex items-center gap-2">
-                        <i data-lucide="briefcase" class="w-4 h-4"></i> TƯ VẤN DOANH NGHIỆP
-                    </div>
-                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Hoạch Định &amp; Quản Trị Hệ Thống</h4>
-                    <p class="text-xs text-charcoal-600 leading-relaxed">
-                        Nền tảng Cử nhân Quản trị Doanh nghiệp cùng chứng nhận Chuyên gia Tư vấn Doanh nghiệp (CEC), giúp tiếp cận bài toán tăng trưởng với góc nhìn hệ thống và dài hạn.
-                    </p>
-                    <ul class="text-xs text-charcoal-700 space-y-1.5 pt-2 border-t hairline-border">
-                        <li>✦ Chứng nhận CEC (Certified Enterprise Consultant)</li>
-                        <li>✦ Phân tích tổ chức và tối ưu hóa nguồn lực kinh doanh</li>
-                        <li>✦ Thiết kế cơ chế thi đua gắn liền mục tiêu chiến lược</li>
-                    </ul>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Career Journey (Professional & Strictly Non-Confidential) -->
-    <section id="proven-path" class="py-24 bg-alabaster-50 border-b hairline-border">
-        <div class="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
-
-            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
-                <span class="text-xs font-bold tracking-widest text-bronze uppercase">Leadership Track Record</span>
-                <h2 class="editorial-serif text-3xl sm:text-4xl font-bold text-charcoal-900">
-                    Hành Trình Sự Nghiệp &amp; Trách Nhiệm Quản Trị
-                </h2>
-                <p class="text-charcoal-600 text-sm">
-                    Ghi nhận qua quá trình công tác bền bỉ tại các doanh nghiệp bảo hiểm hàng đầu Việt Nam.
-                </p>
-            </div>
-
-            <!-- Timeline Entries -->
-            <div class="space-y-12">
-
-                <!-- Role 1: Dai-ichi Life -->
-                <div class="bg-white border hairline-border p-8 sm:p-10 space-y-6 subtle-shadow">
-                    <div class="flex flex-wrap items-center justify-between gap-4 border-b hairline-border pb-6">
+                    <article class="reveal bg-ink text-[#f5f5f7] rounded-[28px] p-8 sm:p-10 flex flex-col justify-between min-h-[260px]">
+                        <p class="text-[15px] font-semibold text-gray-light">Thâm niên</p>
                         <div>
-                            <span class="text-[10px] font-bold tracking-widest text-bronze uppercase bg-bronze-subtle px-3 py-1 border border-bronze-border">
-                                07/2021 — Hiện tại (Gần 5 Năm)
-                            </span>
-                            <h3 class="editorial-serif text-2xl font-bold text-charcoal-900 mt-2">
-                                Dai-ichi Life Việt Nam
-                            </h3>
-                            <p class="text-xs font-semibold text-charcoal-600 uppercase tracking-wider mt-0.5">
-                                Business Development / BDOH
-                            </p>
+                            <p class="display text-[80px] leading-none tabular">10+</p>
+                            <p class="mt-3 text-gray-light">năm ở kênh đại lý, qua hai doanh nghiệp bảo hiểm nhân thọ.</p>
                         </div>
-                        <div class="text-xs text-charcoal-500 bg-alabaster-100 px-3.5 py-2 border hairline-border">
-                            <span class="font-medium text-charcoal-800">Phụ trách:</span> VP Phú Lương, Phổ Yên, Bắc Kạn, Thái Nguyên
-                        </div>
-                    </div>
+                    </article>
 
-                    <div class="space-y-3.5 text-xs sm:text-sm text-charcoal-700 leading-relaxed">
-                        <div class="flex items-start gap-3">
-                            <span class="text-bronze font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Phụ trách phát triển kinh doanh tại các văn phòng được phân công; quản trị toàn diện các chỉ tiêu kinh doanh, kế hoạch tuyển dụng, kích hoạt đại lý và các chiến dịch thúc đẩy bán hàng theo tháng/quý.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-bronze font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span><strong class="text-charcoal-900 font-semibold">Nhiều năm liên tiếp hoàn thành chỉ tiêu kinh doanh và tuyển dụng được giao</strong>; giữ vững vai trò cầu nối điều phối giữa mục tiêu công ty, năng lực đội ngũ và chuẩn mực tuân thủ trong vận hành.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-bronze font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Xây dựng hệ thống đào tạo thực chiến cho tư vấn viên và quản lý kinh doanh; chuyển hóa kiến thức chuyên môn thành phương pháp <em class="text-charcoal-900 font-medium">"Đơn giản - Dễ hiểu - Dễ làm"</em>.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-bronze font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Coaching trực tiếp cho quản lý kinh doanh và trưởng nhóm về kỹ năng bán hàng, tuyển chọn nhân sự, điều hành sinh hoạt nhóm và thiết lập kỷ luật thực thi nghiêm túc.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-bronze font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Thiết kế và triển khai các chương trình khai thác phân khúc mục tiêu: <em class="text-charcoal-900">Khách hàng xuất khẩu lao động, chủ doanh nghiệp SME, khách hàng hiện hữu và hoạch định chuyển giao di sản gia đình</em>.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-bronze font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Tiên phong đào tạo ứng dụng AI vào xây dựng thương hiệu cá nhân, sản xuất nội dung video ngắn và tối ưu hóa năng suất tác nghiệp của đội ngũ.</span>
-                        </div>
-                    </div>
+                    <article class="reveal bg-white rounded-[28px] p-8 sm:p-10">
+                        <svg class="w-8 h-8 text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        <p class="mt-6 text-[15px] font-semibold text-gray">Đào tạo</p>
+                        <h3 class="headline mt-2 text-[22px] sm:text-[24px]">Biến nghiệp vụ phức tạp thành kịch bản dùng được ngay.</h3>
+                        <p class="mt-3 text-gray">Tư vấn 3D giúp tư vấn viên mới mở lời và trình bày giải pháp từ tuần đầu tiên.</p>
+                    </article>
+
+                    <article class="reveal bg-white rounded-[28px] p-8 sm:p-10">
+                        <svg class="w-8 h-8 text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        <p class="mt-6 text-[15px] font-semibold text-gray">Coaching quản lý</p>
+                        <h3 class="headline mt-2 text-[22px] sm:text-[24px]">Giúp quản lý chuyển từ Ngôi sao bán hàng thành Quản lý đội nhóm bán hàng.</h3>
+                        <p class="mt-3 text-gray">Kèm ba việc: tuyển chọn đúng người, họp 1:1, kèm cặp ngoài thị trường.</p>
+                    </article>
+
+                    <article class="reveal bg-white rounded-[28px] p-8 sm:p-10">
+                        <svg class="w-8 h-8 text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                        <p class="mt-6 text-[15px] font-semibold text-gray">Phân khúc</p>
+                        <h3 class="headline mt-2 text-[22px] sm:text-[24px]">Khai thác các phân khúc thị trường xanh.</h3>
+                        <p class="mt-3 text-gray">Chương trình cho chủ doanh nghiệp SME, người đi xuất khẩu lao động và kế hoạch chuyển giao tài sản gia đình.</p>
+                    </article>
+
+                    <article class="reveal md:col-span-2 bg-white rounded-[28px] p-8 sm:p-10">
+                        <svg class="w-8 h-8 text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15z"/></svg>
+                        <p class="mt-6 text-[15px] font-semibold text-gray">AI trong vận hành</p>
+                        <h3 class="headline mt-2 text-[26px] sm:text-[32px]">Triển khai ứng dụng AI nhằm rút ngắn thời gian và gia tăng chất lượng công việc.</h3>
+                        <ul class="mt-5 grid sm:grid-cols-2 gap-x-8 gap-y-3 text-gray">
+                            <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-blue shrink-0"></span><span>AI role play</span></li>
+                            <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-blue shrink-0"></span><span>Sản xuất nội dung số chuyển đổi cao bằng ứng dụng AI</span></li>
+                            <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-blue shrink-0"></span><span>Tạo Trợ lý coaching 1:1 trong công việc</span></li>
+                            <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-blue shrink-0"></span><span>Tạo các tài liệu sale kit minh họa dễ hiểu, dễ nhớ</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="reveal bg-white rounded-[28px] p-8 sm:p-10">
+                        <svg class="w-8 h-8 text-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+                        <p class="mt-6 text-[15px] font-semibold text-gray">Chứng nhận</p>
+                        <h3 class="headline mt-2 text-[22px] sm:text-[24px]">Chuyên gia Tư vấn Doanh nghiệp (CEC).</h3>
+                        <p class="mt-3 text-gray">John&amp;Partner, 2024 đến 2026. Khung tư vấn quản trị và tối ưu quy trình, áp dụng vào bài toán kênh phân phối.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Problems I solve -->
+        <section id="bai-toan" class="bg-white">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-36">
+                <div class="reveal max-w-2xl">
+                    <h2 class="title-caps text-[32px] sm:text-[42px] lg:text-[48px]">5 VẤN ĐỀ THƯỜNG GẶP</h2>
+                    <p class="mt-4 text-[19px] sm:text-[21px] leading-[1.45] text-gray">Tại các Văn phòng kinh doanh bảo hiểm.</p>
                 </div>
 
-                <!-- Role 2: Bao Viet Nhan Tho -->
-                <div class="bg-white border hairline-border p-8 sm:p-10 space-y-6 subtle-shadow">
-                    <div class="flex flex-wrap items-center justify-between gap-4 border-b hairline-border pb-6">
+                <div class="mt-14 border-t border-gray-line">
+                    <div class="reveal grid md:grid-cols-2 gap-3 md:gap-12 py-8 border-b border-gray-line">
+                        <h3 class="text-[21px] font-semibold tracking-tight leading-snug">Tư vấn viên mới nghỉ sớm, lâu mới có hợp đồng đầu tiên.</h3>
+                        <p class="text-gray">Kịch bản Tư vấn 3D và kèm cặp sát trong những tuần đầu, rút ngắn thời gian đến hợp đồng đầu tiên.</p>
+                    </div>
+                    <div class="reveal grid md:grid-cols-2 gap-3 md:gap-12 py-8 border-b border-gray-line">
+                        <h3 class="text-[21px] font-semibold tracking-tight leading-snug">Trưởng nhóm là Ngôi sao bán hàng nhưng đội ngũ hoạt động không đều.</h3>
+                        <p class="text-gray">Chương trình Quản lý thực chiến: bán tốt, tuyển tinh, luyện giỏi. Kèm trực tiếp đến khi trưởng nhóm tự điều hành được.</p>
+                    </div>
+                    <div class="reveal grid md:grid-cols-2 gap-3 md:gap-12 py-8 border-b border-gray-line">
+                        <h3 class="text-[21px] font-semibold tracking-tight leading-snug">Đại lý hoạt động mạnh trong đợt thi đua, rồi chững lại.</h3>
+                        <p class="text-gray">Nhịp họp ngày, họp tuần và coaching 1:1 định kỳ, để hoạt động vẫn đều sau khi thi đua kết thúc.</p>
+                    </div>
+                    <div class="reveal grid md:grid-cols-2 gap-3 md:gap-12 py-8 border-b border-gray-line">
+                        <h3 class="text-[21px] font-semibold tracking-tight leading-snug">Đội ngũ chỉ khai thác người quen.</h3>
+                        <p class="text-gray">Xây kênh video ngắn cho tư vấn viên và chương trình theo phân khúc: SME, xuất khẩu lao động, chuyển giao tài sản.</p>
+                    </div>
+                    <div class="reveal grid md:grid-cols-2 gap-3 md:gap-12 py-8 border-b border-gray-line">
+                        <h3 class="text-[21px] font-semibold tracking-tight leading-snug">Quản lý mất nhiều giờ cho báo cáo và giấy tờ.</h3>
+                        <p class="text-gray">Chuẩn hóa mẫu báo cáo, rút gọn cuộc họp và dùng AI cho phần soạn thảo lặp lại.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How I work -->
+        <section id="cach-lam" class="bg-black text-[#f5f5f7]">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-36">
+                <div class="reveal max-w-2xl">
+                    <h2 class="title-caps text-[32px] sm:text-[42px] lg:text-[48px]">CÁCH TÔI TIẾP CẬN &amp; XỬ LÝ VẤN ĐỀ</h2>
+                    <p class="mt-4 text-[19px] sm:text-[21px] leading-[1.45] text-gray-light">Bắt đầu từ hiện trường, kết thúc bằng số liệu.</p>
+                </div>
+
+                <ol class="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+                    <li class="reveal border-t border-white/20 pt-6">
+                        <p class="text-[15px] text-gray-light tabular">01</p>
+                        <h3 class="mt-3 text-[24px] font-semibold tracking-tight">Chẩn đoán</h3>
+                        <p class="mt-3 text-gray-light">JFW cùng đội ngũ, ghi lại các số liệu hoạt động, phát hiện ra các “nút thắt” cốt lõi thực sự (tuyển/bán/luyện).</p>
+                    </li>
+                    <li class="reveal border-t border-white/20 pt-6">
+                        <p class="text-[15px] text-gray-light tabular">02</p>
+                        <h3 class="mt-3 text-[24px] font-semibold tracking-tight">Chuẩn hóa</h3>
+                        <p class="mt-3 text-gray-light">Gói cách làm thành quy trình ngắn và kịch bản mà tư vấn viên nào cũng làm theo được.</p>
+                    </li>
+                    <li class="reveal border-t border-white/20 pt-6">
+                        <p class="text-[15px] text-gray-light tabular">03</p>
+                        <h3 class="mt-3 text-[24px] font-semibold tracking-tight">Triển khai cùng đội</h3>
+                        <p class="mt-3 text-gray-light">Đào tạo, kèm trưởng nhóm, thiết lập nhịp họp ngày, họp tuần và coaching 1:1.</p>
+                    </li>
+                    <li class="reveal border-t border-white/20 pt-6">
+                        <p class="text-[15px] text-gray-light tabular">04</p>
+                        <h3 class="mt-3 text-[24px] font-semibold tracking-tight">Đo và điều chỉnh</h3>
+                        <p class="mt-3 text-gray-light">Theo dõi chỉ số hoạt động hằng tuần và sửa quy trình dựa trên số liệu.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Programs -->
+        <section id="chuong-trinh" class="bg-gray-bg">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-36">
+                <div class="reveal max-w-2xl">
+                    <h2 class="title-caps text-[32px] sm:text-[42px] lg:text-[48px]">CÁC CHƯƠNG TRÌNH TIÊU BIỂU ĐÃ TRIỂN KHAI</h2>
+                </div>
+
+                <ol class="reveal mt-8 flex flex-wrap items-center gap-x-2 gap-y-3 text-[15px]" aria-label="Quy trình xây dựng chương trình">
+                    <li class="flex items-center gap-2"><span class="inline-flex items-center h-10 px-4 rounded-full bg-white whitespace-nowrap">Xuất phát từ nhu cầu/vấn đề</span><svg class="text-gray shrink-0" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></li>
+                    <li class="flex items-center gap-2"><span class="inline-flex items-center h-10 px-4 rounded-full bg-white whitespace-nowrap">Xây dựng Giáo án/tài liệu</span><svg class="text-gray shrink-0" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></li>
+                    <li class="flex items-center gap-2"><span class="inline-flex items-center h-10 px-4 rounded-full bg-white whitespace-nowrap">Đào tạo/huấn luyện</span><svg class="text-gray shrink-0" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></li>
+                    <li class="flex items-center gap-2"><span class="inline-flex items-center h-10 px-4 rounded-full bg-white whitespace-nowrap">Triển khai/Theo dõi</span><svg class="text-gray shrink-0" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></li>
+                    <li class="flex items-center gap-2"><span class="inline-flex items-center h-10 px-4 rounded-full bg-white whitespace-nowrap">Báo cáo thống kê</span><svg class="text-gray shrink-0" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></li>
+                    <li class="flex items-center"><span class="inline-flex items-center h-10 px-4 rounded-full bg-blue text-white font-medium whitespace-nowrap">Cải tiến</span></li>
+                </ol>
+
+                <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <article class="reveal bg-white rounded-[24px] p-8 flex flex-col">
+                        <p class="text-[13px] font-semibold text-blue">Tư vấn viên mới</p>
+                        <h3 class="mt-2 text-[24px] font-semibold tracking-tight">Tư vấn 3D</h3>
+                        <p class="mt-3 text-gray">Đơn giản, dễ hiểu, dễ làm. Kịch bản mở lời và trình bày giải pháp bảo hiểm cho người mới vào nghề.</p>
+                    </article>
+                    <article class="reveal bg-white rounded-[24px] p-8 flex flex-col">
+                        <p class="text-[13px] font-semibold text-blue">Trưởng nhóm, quản lý kinh doanh</p>
+                        <h3 class="mt-2 text-[24px] font-semibold tracking-tight">Quản lý thực chiến</h3>
+                        <p class="mt-3 text-gray">Bán tốt, tuyển tinh, luyện giỏi. Tuyển chọn ứng viên, tổ chức họp 1:1 và kèm cặp ngoài thị trường.</p>
+                    </article>
+                    <article class="reveal bg-white rounded-[24px] p-8 flex flex-col">
+                        <p class="text-[13px] font-semibold text-blue">Tư vấn viên, quản lý</p>
+                        <h3 class="mt-2 text-[24px] font-semibold tracking-tight">AI cho tư vấn viên</h3>
+                        <p class="mt-3 text-gray">Thương hiệu cá nhân và năng suất. Soạn kịch bản theo nhóm khách hàng, làm tài liệu, lên kế hoạch tuần.</p>
+                    </article>
+                    <article class="reveal bg-white rounded-[24px] p-8 flex flex-col">
+                        <p class="text-[13px] font-semibold text-blue">Tư vấn viên</p>
+                        <h3 class="mt-2 text-[24px] font-semibold tracking-tight">Xây kênh video ngắn</h3>
+                        <p class="mt-3 text-gray">TikTok, Reels, Shorts. Tiếp cận khách hàng và ứng viên mới ngoài nhóm người quen.</p>
+                    </article>
+                    <article class="reveal bg-white rounded-[24px] p-8 flex flex-col">
+                        <p class="text-[13px] font-semibold text-blue">Tư vấn viên có kinh nghiệm</p>
+                        <h3 class="mt-2 text-[24px] font-semibold tracking-tight">Hoạch định tài chính cá nhân</h3>
+                        <p class="mt-3 text-gray">Đưa dòng tiền, quỹ dự phòng và cơ cấu tài sản vào buổi tư vấn, để hợp đồng phù hợp và duy trì lâu hơn.</p>
+                    </article>
+                    <article class="reveal bg-white rounded-[24px] p-8 flex flex-col">
+                        <p class="text-[13px] font-semibold text-blue">Quản lý, tư vấn viên cấp cao</p>
+                        <h3 class="mt-2 text-[24px] font-semibold tracking-tight">Chuyển giao di sản và SME</h3>
+                        <p class="mt-3 text-gray">Thiết kế và dẫn hội thảo cho chủ doanh nghiệp nhỏ và vừa về bảo vệ và chuyển giao tài sản.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="kinh-nghiem" class="bg-white">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-36">
+                <div class="reveal max-w-2xl">
+                    <h2 class="title-caps text-[32px] sm:text-[42px] lg:text-[48px]">KINH NGHIỆM</h2>
+                </div>
+
+                <div class="mt-14 border-t border-gray-line">
+                    <article class="reveal grid md:grid-cols-[260px_1fr] gap-4 md:gap-12 py-10 border-b border-gray-line">
                         <div>
-                            <span class="text-[10px] font-bold tracking-widest text-charcoal-500 uppercase bg-alabaster-200 px-3 py-1 border hairline-border">
-                                08/2015 — 06/2021 (Gần 6 Năm)
-                            </span>
-                            <h3 class="editorial-serif text-2xl font-bold text-charcoal-900 mt-2">
-                                Bảo Việt Nhân Thọ Thái Nguyên
-                            </h3>
-                            <p class="text-xs font-semibold text-charcoal-600 uppercase tracking-wider mt-0.5">
-                                Chuyên viên Phát triển KD / Phụ trách KD Khu vực
-                            </p>
+                            <p class="text-[15px] text-gray tabular">07/2021 đến nay</p>
+                            <p class="mt-1 text-[15px] text-gray">Thái Nguyên, Bắc Kạn</p>
                         </div>
-                        <div class="text-xs text-charcoal-500 bg-alabaster-100 px-3.5 py-2 border hairline-border">
-                            <span class="font-medium text-charcoal-800">Địa bàn:</span> Thái Nguyên &amp; các huyện phụ cận
+                        <div>
+                            <h3 class="text-[28px] font-semibold tracking-tight leading-tight">Dai-ichi Life Việt Nam</h3>
+                            <p class="mt-1 text-[17px] text-gray">Business Development (BDOH), phụ trách văn phòng Phú Lương, Phổ Yên, Bắc Kạn, Thái Nguyên</p>
+                            <ul class="mt-6 space-y-3">
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Quản lý chỉ tiêu kinh doanh, tuyển dụng, kích hoạt đại lý và chương trình thi đua của bốn văn phòng.</span></li>
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Hoàn thành chỉ tiêu kinh doanh và tuyển dụng được giao nhiều năm liên tiếp.</span></li>
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Xây dựng và đứng lớp các chương trình Tư vấn 3D, Quản lý thực chiến, AI cho tư vấn viên.</span></li>
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Triển khai chương trình cho phân khúc SME, xuất khẩu lao động và chuyển giao tài sản gia đình.</span></li>
+                            </ul>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="space-y-3.5 text-xs sm:text-sm text-charcoal-700 leading-relaxed">
-                        <div class="flex items-start gap-3">
-                            <span class="text-charcoal-400 font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Quản trị hệ thống tư vấn viên theo địa bàn phụ trách; triển khai định hướng phát triển kinh doanh, kế hoạch hành động và phong trào thi đua.</span>
+                    <article class="reveal grid md:grid-cols-[260px_1fr] gap-4 md:gap-12 py-10 border-b border-gray-line">
+                        <div>
+                            <p class="text-[15px] text-gray tabular">08/2015 đến 06/2021</p>
+                            <p class="mt-1 text-[15px] text-gray">Thái Nguyên</p>
                         </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-charcoal-400 font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span><strong class="text-charcoal-900 font-semibold">Hoàn thành xuất sắc chỉ tiêu kinh doanh liên tiếp giai đoạn 2017–2019</strong>; vinh dự đón nhận <strong class="text-charcoal-900 font-semibold">Bằng khen của Bộ Tài chính</strong> về thành tích xuất sắc trong hoạt động kinh doanh bảo hiểm.</span>
+                        <div>
+                            <h3 class="text-[28px] font-semibold tracking-tight leading-tight">Bảo Việt Nhân thọ Thái Nguyên</h3>
+                            <p class="mt-1 text-[17px] text-gray">Chuyên viên Phát triển Kinh doanh, Phụ trách Kinh doanh Khu vực</p>
+                            <ul class="mt-6 space-y-3">
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Quản lý hệ thống tư vấn viên theo địa bàn; tuyển dụng và phát triển ban, nhóm.</span></li>
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Hoàn thành chỉ tiêu kinh doanh các năm 2017, 2018, 2019; nhận Bằng khen của Bộ Tài chính.</span></li>
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Thuyết trình tại hội nghị khách hàng; tổ chức sự kiện vinh danh, ra mắt sản phẩm và kick off.</span></li>
+                                <li class="flex gap-3"><span class="mt-[0.7em] w-1.5 h-1.5 rounded-full bg-ink shrink-0"></span><span>Học tập và khảo sát thị trường bảo hiểm tại Nhật Bản, Hàn Quốc, Thái Lan, Hồng Kông.</span></li>
+                            </ul>
                         </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-charcoal-400 font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Thuyết trình tại các hội nghị khách hàng quy mô lớn; tuyển dụng, phát triển hệ thống ban nhóm; tổ chức các chương trình huấn luyện kỹ năng nghiệp vụ chuyên sâu.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-charcoal-400 font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Giám sát tính tuân thủ quy chế vận hành; giải quyết thấu đáo và hài hòa các vấn đề phát sinh giữa công ty, quản lý kinh doanh và tư vấn viên.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-charcoal-400 font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Lên ý tưởng kịch bản và điều phối các sự kiện vinh danh, ra mắt sản phẩm mới, sinh hoạt CLB và các chương trình KickOff truyền lửa.</span>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <span class="text-charcoal-400 font-serif font-bold text-base leading-none mt-0.5">—</span>
-                            <span>Đạt chuẩn tham dự các chương trình học tập, khảo sát thị trường quốc tế tại Nhật Bản, Thái Lan, Hàn Quốc, Hồng Kông.</span>
-                        </div>
-                    </div>
+                    </article>
                 </div>
-
             </div>
+        </section>
 
-        </div>
-    </section>
-
-    <!-- Recognition & Academic Credentials -->
-    <section id="credentials" class="py-24 bg-alabaster-100 border-b hairline-border">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-
-            <div class="grid lg:grid-cols-12 gap-12 lg:gap-16">
-
-                <!-- Awards Column -->
-                <div class="lg:col-span-6 space-y-8">
-                    <div class="space-y-2">
-                        <span class="text-xs font-bold tracking-widest text-bronze uppercase">Honors &amp; Recognition</span>
-                        <h3 class="editorial-serif text-3xl font-bold text-charcoal-900">Bằng Khen &amp; Danh Hiệu Ngành</h3>
-                        <p class="text-xs text-charcoal-500">Sự ghi nhận chính thức từ cơ quan quản lý và hiệp hội ngành nghề.</p>
-                    </div>
-
-                    <div class="space-y-4">
-                        <!-- Award 1 -->
-                        <div class="bg-white p-6 border hairline-border border-l-4 border-l-bronze space-y-2 subtle-shadow">
-                            <div class="flex items-center justify-between">
-                                <span class="text-[10px] font-bold tracking-widest uppercase text-bronze bg-bronze-subtle px-2 py-0.5">Trao Thưởng Năm 2019</span>
-                                <i data-lucide="award" class="w-5 h-5 text-bronze"></i>
-                            </div>
-                            <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Bằng Khen của Bộ Tài Chính</h4>
-                            <p class="text-xs text-charcoal-600 leading-relaxed">
-                                Khen thưởng thành tích xuất sắc trong hoạt động kinh doanh bảo hiểm giai đoạn 2017 – 2018 (Theo Quyết định khen thưởng của Bộ Tài chính).
-                            </p>
-                        </div>
-
-                        <!-- Award 2 -->
-                        <div class="bg-white p-6 border hairline-border border-l-4 border-l-charcoal-700 space-y-2 subtle-shadow">
-                            <div class="flex items-center justify-between">
-                                <span class="text-[10px] font-bold tracking-widest uppercase text-charcoal-700 bg-alabaster-200 px-2 py-0.5">Ghi Nhận Năm 2025</span>
-                                <i data-lucide="medal" class="w-5 h-5 text-charcoal-700"></i>
-                            </div>
-                            <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Giấy Khen Hiệp Hội Bảo Hiểm Việt Nam (IAV)</h4>
-                            <p class="text-xs text-charcoal-600 leading-relaxed">
-                                Ghi nhận cống hiến và gắn bó bền bỉ 10 năm trong sự nghiệp phát triển thị trường Bảo hiểm Nhân thọ Việt Nam.
-                            </p>
-                        </div>
-
-                        <!-- Award 3 -->
-                        <div class="bg-white p-6 border hairline-border border-l-4 border-l-forest-800 space-y-2 subtle-shadow">
-                            <div class="flex items-center justify-between">
-                                <span class="text-[10px] font-bold tracking-widest uppercase text-forest-800 bg-forest-50 px-2 py-0.5">Khảo Sát Quốc Tế</span>
-                                <i data-lucide="globe" class="w-5 h-5 text-forest-800"></i>
-                            </div>
-                            <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Hội Nghị &amp; Khảo Sát Chuyên Môn Quốc Tế</h4>
-                            <p class="text-xs text-charcoal-600 leading-relaxed">
-                                Đạt chuẩn tham dự các chương trình học tập, nghiên cứu mô hình bảo hiểm nhân thọ tại Nhật Bản, Hàn Quốc, Thái Lan, Hồng Kông.
-                            </p>
-                        </div>
-                    </div>
+        <!-- Recognition & education -->
+        <section id="ghi-nhan" class="bg-gray-bg">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-36">
+                <div class="reveal max-w-2xl">
+                    <h2 class="title-caps text-[32px] sm:text-[42px] lg:text-[48px]">GHI NHẬN VÀ HỌC VẤN</h2>
                 </div>
 
-                <!-- Education & Professional Credentials -->
-                <div class="lg:col-span-6 space-y-8">
-                    <div class="space-y-2">
-                        <span class="text-xs font-bold tracking-widest text-bronze uppercase">Academic &amp; Professional Credentials</span>
-                        <h3 class="editorial-serif text-3xl font-bold text-charcoal-900">Học Vấn &amp; Chứng Chỉ Quản Trị</h3>
-                        <p class="text-xs text-charcoal-500">Nền tảng đào tạo chính quy và các khóa huấn luyện chuyên sâu.</p>
-                    </div>
-
-                    <div class="space-y-4">
-                        <!-- Edu 1 -->
-                        <div class="bg-white p-6 border hairline-border space-y-2 subtle-shadow">
-                            <div class="flex justify-between items-start">
-                                <div>
-                                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">Trường Đại học Kinh tế &amp; QTKD Thái Nguyên</h4>
-                                    <p class="text-xs font-semibold text-bronze mt-0.5">Cử nhân Quản trị Doanh nghiệp (Hệ Chính quy)</p>
-                                </div>
-                                <span class="text-xs text-charcoal-400 font-mono">2008 — 2011</span>
-                            </div>
-                            <p class="text-xs text-charcoal-600 leading-relaxed">
-                                Nền tảng quản trị kinh doanh, phân tích hoạt động doanh nghiệp và hoạch định chiến lược bài bản.
-                            </p>
-                        </div>
-
-                        <!-- Edu 2 -->
-                        <div class="bg-white p-6 border hairline-border space-y-2 subtle-shadow">
-                            <div class="flex justify-between items-start">
-                                <div>
-                                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">John&amp;Partner | Chứng Nhận Quốc Tế</h4>
-                                    <p class="text-xs font-semibold text-bronze mt-0.5">CEC — Chuyên gia Tư vấn Chứng nhận (Certified Enterprise Consultant)</p>
-                                </div>
-                                <span class="text-xs text-charcoal-400 font-mono">2024 — 2026</span>
-                            </div>
-                            <p class="text-xs text-charcoal-600 leading-relaxed">
-                                Khung phương pháp luận chuyên sâu về tư vấn quản trị hệ thống, tối ưu quy trình và tái cấu trúc tăng trưởng doanh nghiệp.
-                            </p>
-                        </div>
-
-                        <!-- Edu 3 -->
-                        <div class="bg-white p-6 border hairline-border space-y-2 subtle-shadow">
-                            <div class="flex justify-between items-start">
-                                <div>
-                                    <h4 class="editorial-serif text-lg font-bold text-charcoal-900">HGP Academy &amp; Học Viện Bảo Hiểm</h4>
-                                    <p class="text-xs font-semibold text-bronze mt-0.5">Lãnh Đạo Vàng, Đại Lý Vàng &amp; Nghiệp Vụ UVL</p>
-                                </div>
-                                <span class="text-xs text-charcoal-400 font-mono">2015 — 2021</span>
-                            </div>
-                            <p class="text-xs text-charcoal-600 leading-relaxed">
-                                One Team - One Mission, Dẫn giảng UVL, Kỹ năng điều hành họp 1:1, Thuyết trình hội nghị khách hàng, Nhân thọ hàm thụ &amp; Bảo Việt Tầm cao.
-                            </p>
-                        </div>
-                    </div>
+                <div class="mt-14 grid md:grid-cols-3 gap-5">
+                    <article class="reveal bg-white rounded-[24px] p-8">
+                        <p class="text-[15px] text-gray tabular">2019</p>
+                        <h3 class="mt-3 text-[22px] font-semibold tracking-tight leading-snug">Bằng khen của Bộ Tài chính</h3>
+                        <p class="mt-3 text-gray">Thành tích xuất sắc trong hoạt động kinh doanh bảo hiểm năm 2017 và 2018.</p>
+                    </article>
+                    <article class="reveal bg-white rounded-[24px] p-8">
+                        <p class="text-[15px] text-gray tabular">2025</p>
+                        <h3 class="mt-3 text-[22px] font-semibold tracking-tight leading-snug">Giấy khen Hiệp hội Bảo hiểm Việt Nam</h3>
+                        <p class="mt-3 text-gray">Ghi nhận 10 năm làm việc trong ngành bảo hiểm nhân thọ.</p>
+                    </article>
+                    <article class="reveal bg-white rounded-[24px] p-8">
+                        <p class="text-[15px] text-gray tabular">2024 đến 2026</p>
+                        <h3 class="mt-3 text-[22px] font-semibold tracking-tight leading-snug">Chuyên gia Tư vấn Doanh nghiệp (CEC)</h3>
+                        <p class="mt-3 text-gray">John&amp;Partner. Tư vấn quản trị, tối ưu quy trình, tái cấu trúc tăng trưởng.</p>
+                    </article>
                 </div>
 
+                <dl class="reveal mt-12 grid md:grid-cols-2 gap-x-12 border-t border-gray-line">
+                    <div class="py-6 border-b border-gray-line">
+                        <dt class="text-[15px] text-gray tabular">2008 đến 2011</dt>
+                        <dd class="mt-1 font-semibold">Cử nhân Quản trị Doanh nghiệp</dd>
+                        <dd class="text-gray">Trường Đại học Kinh tế và Quản trị Kinh doanh, Đại học Thái Nguyên</dd>
+                    </div>
+                    <div class="py-6 border-b border-gray-line">
+                        <dt class="text-[15px] text-gray tabular">2015 đến 2021</dt>
+                        <dd class="mt-1 font-semibold">HGP Academy và Học viện Bảo hiểm</dd>
+                        <dd class="text-gray">Lãnh đạo Vàng, Đại lý Vàng, dẫn giảng nghiệp vụ UVL, điều hành họp 1:1</dd>
+                    </div>
+                </dl>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <!-- Contact -->
+        <section id="lien-he" class="bg-white">
+            <div class="max-w-[1080px] mx-auto px-6 py-24 md:py-40 text-center">
+                <h2 class="reveal title-caps text-[36px] sm:text-[52px] lg:text-[60px]">LIÊN HỆ TRAO ĐỔI</h2>
 
-    <!-- Direct C-Suite Contact Section -->
-    <section id="contact" class="py-24 bg-charcoal-900 text-alabaster-50">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-
-            <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-
-                <div class="lg:col-span-5 space-y-6">
-                    <div class="inline-flex items-center gap-2 text-bronze text-xs font-bold tracking-widest uppercase">
-                        <span class="w-1.5 h-1.5 rounded-full bg-bronze"></span> Direct Executive Contact
-                    </div>
-
-                    <h2 class="editorial-serif text-3xl sm:text-5xl font-bold text-white tracking-tight leading-tight">
-                        Kết Nối Trực Tiếp &amp; Trao Đổi Cơ Hội
-                    </h2>
-
-                    <p class="text-charcoal-400 text-sm leading-relaxed">
-                        Tôi luôn sẵn sàng trao đổi cùng <strong class="text-alabaster-50 font-semibold">Ban Tổng Giám Đốc, Giám Đốc Vận Hành (COO), Giám Đốc Kênh Phân Phối (CDO), và Giám Đốc Nhân Sự Cấp Cao</strong> của các Doanh nghiệp Bảo hiểm Nhân thọ về các kế hoạch phát triển kinh doanh và mở rộng kênh đại lý tại khu vực phía Bắc.
-                    </p>
-
-                    <!-- Direct Contact Details -->
-                    <div class="space-y-4 pt-4 border-t border-charcoal-800">
-                        <div class="p-4 bg-charcoal-800/60 border border-charcoal-700 flex items-center justify-between">
-                            <div>
-                                <span class="text-[10px] uppercase tracking-widest text-charcoal-400 block">Hotline / Zalo Trực Tiếp</span>
-                                <span class="text-base font-bold text-alabaster-50 font-mono">0964.882.333</span>
-                            </div>
-                            <button onclick="copyToClipboard('0964882333', 'Đã sao chép Hotline: 0964.882.333')" class="px-3 py-1.5 text-xs font-medium bg-charcoal-700 hover:bg-bronze text-alabaster-50 transition">
-                                Sao chép
-                            </button>
-                        </div>
-
-                        <div class="p-4 bg-charcoal-800/60 border border-charcoal-700 flex items-center justify-between">
-                            <div>
-                                <span class="text-[10px] uppercase tracking-widest text-charcoal-400 block">Email Công Việc</span>
-                                <span class="text-sm font-bold text-alabaster-50 font-mono">nguyenduymba@gmail.com</span>
-                            </div>
-                            <button onclick="copyToClipboard('nguyenduymba@gmail.com', 'Đã sao chép Email: nguyenduymba@gmail.com')" class="px-3 py-1.5 text-xs font-medium bg-charcoal-700 hover:bg-bronze text-alabaster-50 transition">
-                                Sao chép
-                            </button>
-                        </div>
-
-                        <div class="p-4 bg-charcoal-800/60 border border-charcoal-700">
-                            <span class="text-[10px] uppercase tracking-widest text-charcoal-400 block">Địa Bàn Hoạt Động Trọng Tâm</span>
-                            <span class="text-sm font-medium text-alabaster-50">Thái Nguyên, Bắc Ninh &amp; Toàn Miền Bắc</span>
-                        </div>
-                    </div>
+                <div class="reveal mt-10 flex flex-wrap justify-center gap-3">
+                    <a href="tel:+84964882333" class="inline-flex items-center h-12 px-7 rounded-full bg-blue text-white text-[17px] hover:bg-blue-hover transition-colors duration-200 tabular">Gọi 0964 882 333</a>
+                    <a href="https://zalo.me/0964882333" target="_blank" rel="noopener" class="inline-flex items-center h-12 px-7 rounded-full border border-blue text-blue-link text-[17px] hover:bg-blue hover:text-white transition-colors duration-200">Nhắn Zalo</a>
                 </div>
 
-                <!-- Strategic Inquiry Form -->
-                <div class="lg:col-span-7">
-                    <div class="bg-charcoal-800 border border-charcoal-700 p-8 sm:p-10 space-y-6">
-                        <div class="border-b border-charcoal-700 pb-4">
-                            <h3 class="editorial-serif text-2xl font-bold text-white">Gửi Lời Mời Phỏng Vấn / Trao Đổi</h3>
-                            <p class="text-xs text-charcoal-400 mt-1">Thông tin sẽ được gửi trực tiếp đến Nguyễn Đình Duy.</p>
-                        </div>
+                <p class="reveal mt-6 flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-[17px]">
+                    <a href="mailto:nguyenduymba@gmail.com" class="text-blue-link hover:underline underline-offset-4">nguyenduymba@gmail.com</a>
+                    <button type="button" id="copyEmail" class="h-11 px-2 text-[15px] text-gray hover:text-ink cursor-pointer transition-colors duration-200">Sao chép</button>
+                    <span id="copyStatus" class="text-[15px] text-gray" role="status" aria-live="polite"></span>
+                </p>
 
-                        <form id="contactForm" onsubmit="handleRecruiterSubmit(event)" class="space-y-4 text-xs">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                <div>
-                                    <label class="block uppercase tracking-wider text-charcoal-400 mb-1.5 font-semibold">Người Liên Hệ *</label>
-                                    <input type="text" required placeholder="Họ và tên (VD: CDO / Head of HR)" class="w-full px-4 py-3 bg-charcoal-900 border border-charcoal-700 focus:border-bronze focus:outline-none text-alabaster-50 placeholder:text-charcoal-600">
-                                </div>
-                                <div>
-                                    <label class="block uppercase tracking-wider text-charcoal-400 mb-1.5 font-semibold">Doanh Nghiệp BHNT *</label>
-                                    <input type="text" required placeholder="Tên Công ty Bảo hiểm Nhân thọ" class="w-full px-4 py-3 bg-charcoal-900 border border-charcoal-700 focus:border-bronze focus:outline-none text-alabaster-50 placeholder:text-charcoal-600">
-                                </div>
-                            </div>
-
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                <div>
-                                    <label class="block uppercase tracking-wider text-charcoal-400 mb-1.5 font-semibold">Số Điện Thoại *</label>
-                                    <input type="tel" required placeholder="Số điện thoại liên hệ" class="w-full px-4 py-3 bg-charcoal-900 border border-charcoal-700 focus:border-bronze focus:outline-none text-alabaster-50 placeholder:text-charcoal-600">
-                                </div>
-                                <div>
-                                    <label class="block uppercase tracking-wider text-charcoal-400 mb-1.5 font-semibold">Email Phản Hồi *</label>
-                                    <input type="email" required placeholder="email@company.com" class="w-full px-4 py-3 bg-charcoal-900 border border-charcoal-700 focus:border-bronze focus:outline-none text-alabaster-50 placeholder:text-charcoal-600">
-                                </div>
-                            </div>
-
-                            <div>
-                                <label class="block uppercase tracking-wider text-charcoal-400 mb-1.5 font-semibold">Vị Trí / Nội Dung Trao Đổi</label>
-                                <select class="w-full px-4 py-3 bg-charcoal-900 border border-charcoal-700 focus:border-bronze focus:outline-none text-alabaster-50">
-                                    <option>Vị trí Business Development Manager (BDM / BDOH)</option>
-                                    <option>Vị trí Agency Development Manager (ADM)</option>
-                                    <option>Vị trí Giám đốc Kinh doanh Vùng / Khu vực</option>
-                                    <option>Trưởng phòng Sales Enablement &amp; Huấn Luyện Đào Tạo</option>
-                                    <option>Chuyển đổi số &amp; Ứng dụng AI cho Kênh Đại lý</option>
-                                    <option>Nội dung hợp tác chiến lược khác</option>
-                                </select>
-                            </div>
-
-                            <div>
-                                <label class="block uppercase tracking-wider text-charcoal-400 mb-1.5 font-semibold">Ghi Chú Thời Gian &amp; Địa Điểm Trao Đổi</label>
-                                <textarea rows="3" placeholder="Đề xuất thời gian phỏng vấn trực tiếp tại Hà Nội, Thái Nguyên hoặc qua Zoom / Microsoft Teams..." class="w-full px-4 py-3 bg-charcoal-900 border border-charcoal-700 focus:border-bronze focus:outline-none text-alabaster-50 placeholder:text-charcoal-600"></textarea>
-                            </div>
-
-                            <button type="submit" class="w-full py-4 bg-bronze hover:bg-bronze-light text-alabaster-50 font-bold uppercase tracking-widest text-xs transition-colors duration-300 flex items-center justify-center gap-2">
-                                <i data-lucide="send" class="w-4 h-4"></i>
-                                Gửi Lời Mời Trực Tiếp
-                            </button>
-                        </form>
+                <div class="reveal mt-20 grid sm:grid-cols-3 gap-5 text-left">
+                    <div class="bg-gray-bg rounded-[24px] p-7">
+                        <p class="text-[15px] font-semibold">Vị trí quản lý</p>
+                        <p class="mt-2 text-[15px] text-gray">BDM, BDOH, ADM, Giám đốc Kinh doanh Vùng.</p>
+                    </div>
+                    <div class="bg-gray-bg rounded-[24px] p-7">
+                        <p class="text-[15px] font-semibold">Đào tạo và Sales Enablement</p>
+                        <p class="mt-2 text-[15px] text-gray">Xây dựng và triển khai chương trình đào tạo nội bộ.</p>
+                    </div>
+                    <div class="bg-gray-bg rounded-[24px] p-7">
+                        <p class="text-[15px] font-semibold">Khu vực</p>
+                        <p class="mt-2 text-[15px] text-gray">Thái Nguyên, Bắc Ninh và các tỉnh miền Bắc.</p>
                     </div>
                 </div>
-
             </div>
+        </section>
 
-        </div>
-    </section>
+    </main>
 
-    <!-- Executive Footer -->
-    <footer class="bg-charcoal-900 border-t border-charcoal-800 py-12 text-xs text-charcoal-500">
-        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-6">
-            <div class="flex items-center gap-3">
-                <div class="w-7 h-7 bg-charcoal-800 border border-charcoal-700 text-alabaster-50 flex items-center justify-center font-serif font-bold text-xs">
-                    ND
-                </div>
-                <span class="text-charcoal-300 font-medium">Nguyễn Đình Duy — Agency Operations &amp; Growth Architect</span>
-            </div>
-            <p class="text-center sm:text-right text-[11px] text-charcoal-500">
-                Bảo mật &amp; Tôn trọng chuẩn mực tuân thủ ngành Bảo hiểm Nhân thọ.
-            </p>
+    <footer class="bg-gray-bg">
+        <div class="max-w-[1080px] mx-auto px-6 py-6 flex flex-col sm:flex-row gap-1 justify-between text-[13px] text-gray">
+            <p>Copyright © 2026 Nguyễn Đình Duy.</p>
+            <p>Thái Nguyên, Việt Nam</p>
         </div>
     </footer>
 
-    <!-- Executive Briefing Memo Modal (Editorial Style) -->
-    <div id="executiveModal" class="fixed inset-0 z-50 bg-charcoal-900/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
-        <div class="bg-alabaster-50 border hairline-border max-w-2xl w-full p-8 max-h-[90vh] overflow-y-auto space-y-6 shadow-2xl relative">
-
-            <div class="flex items-center justify-between border-b hairline-border pb-4">
-                <div>
-                    <span class="text-[10px] font-bold uppercase tracking-widest text-bronze block">Executive Briefing Memo</span>
-                    <h3 class="editorial-serif text-2xl font-bold text-charcoal-900">Tóm Tắt Năng Lực 1-Trang</h3>
-                </div>
-                <button onclick="closeExecutiveModal()" class="p-2 text-charcoal-500 hover:text-charcoal-900" aria-label="Đóng">
-                    <i data-lucide="x" class="w-5 h-5"></i>
-                </button>
-            </div>
-
-            <div class="space-y-4 text-xs text-charcoal-700 leading-relaxed">
-                <p>
-                    <strong class="text-charcoal-900">Họ và tên:</strong> Nguyễn Đình Duy | <strong class="text-charcoal-900">Vị trí:</strong> Agency Operations &amp; Growth Architect | <strong class="text-charcoal-900">Kinh nghiệm:</strong> 10+ Năm Kênh Đại lý Bảo hiểm Nhân thọ | <strong class="text-charcoal-900">Khu vực:</strong> Thái Nguyên, Bắc Ninh &amp; Miền Bắc.
-                </p>
-
-                <div class="p-5 bg-white border hairline-border space-y-3">
-                    <h4 class="font-bold text-charcoal-900 uppercase text-[11px] tracking-wider text-bronze">
-                        3 Năng Lực Cốt Lõi Khác Biệt:
-                    </h4>
-                    <ul class="space-y-2 text-charcoal-700">
-                        <li class="flex items-start gap-2">
-                            <span class="text-bronze font-bold">1.</span>
-                            <span><strong>Kinh nghiệm quản trị OPEX thực chiến đã chứng minh:</strong> Nhiều năm hoàn thành chỉ tiêu kinh doanh và tuyển dụng tại Dai-ichi Life; vinh dự nhận Bằng khen Bộ Tài chính và Giấy khen 10 năm cống hiến từ IAV.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-bronze font-bold">2.</span>
-                            <span><strong>Hệ thống đào tạo thực chiến đóng gói sẵn:</strong> Sở hữu 6 chương trình huấn luyện chuyên sâu ("Tư vấn 3D", "Quản lý thực chiến", Hội thảo Di sản &amp; SME), chuyển giao ngay cho đội ngũ.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span class="text-bronze font-bold">3.</span>
-                            <span><strong>Tư duy chuyển đổi số &amp; AI cho Agency:</strong> Năng lực đào tạo xây kênh video ngắn và ứng dụng AI tự động hóa kịch bản, giúp đội ngũ bứt phá năng suất theo đúng tinh thần OPEX.</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <p>
-                    <strong class="text-charcoal-900">Định hướng hợp tác:</strong> Business Development Manager (BDM / BDOH), Agency Development Manager (ADM), Training &amp; Sales Enablement Leader, Giám đốc Kinh doanh Vùng.
-                </p>
-            </div>
-
-            <div class="flex gap-3 pt-2">
-                <button onclick="copyToClipboard('0964882333', 'Đã sao chép SĐT: 0964.882.333'); closeExecutiveModal();" class="flex-1 py-3 bg-charcoal-900 hover:bg-bronze text-alabaster-50 font-bold text-xs uppercase tracking-widest transition">
-                    Gọi 0964.882.333
-                </button>
-                <button onclick="closeExecutiveModal()" class="px-6 py-3 border border-charcoal-900 text-charcoal-900 font-semibold text-xs uppercase tracking-wider hover:bg-alabaster-200">
-                    Đóng
-                </button>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Notification Toast -->
-    <div id="toastMessage" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none bg-charcoal-900 text-alabaster-50 px-5 py-3.5 shadow-2xl border border-bronze flex items-center gap-3">
-        <i data-lucide="check-circle-2" class="w-4 h-4 text-bronze"></i>
-        <span id="toastText" class="text-xs font-semibold">Thông báo</span>
-    </div>
-
-    <!-- Scripts -->
     <script>
-        // Lucide Icons Initialization
-        lucide.createIcons();
+        // Mobile menu
+        const menuButton = document.getElementById('menuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const iconMenu = document.getElementById('iconMenu');
+        const iconClose = document.getElementById('iconClose');
+        function setMenu(open) {
+            mobileMenu.classList.toggle('hidden', !open);
+            iconMenu.classList.toggle('hidden', open);
+            iconClose.classList.toggle('hidden', !open);
+            menuButton.setAttribute('aria-expanded', String(open));
+            menuButton.setAttribute('aria-label', open ? 'Đóng menu' : 'Mở menu');
+        }
+        menuButton.addEventListener('click', () => setMenu(mobileMenu.classList.contains('hidden')));
+        mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
 
-        // Mobile Nav Controls
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const mobileNavMenu = document.getElementById('mobileNavMenu');
+        // Scroll reveal (skipped entirely when the visitor prefers reduced motion)
+        const reveals = document.querySelectorAll('.reveal');
+        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+                });
+            }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('in'));
+        }
 
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileNavMenu.classList.toggle('hidden');
+        // Copy email
+        const copyButton = document.getElementById('copyEmail');
+        const copyStatus = document.getElementById('copyStatus');
+        copyButton.addEventListener('click', async () => {
+            const email = 'nguyenduymba@gmail.com';
+            try {
+                await navigator.clipboard.writeText(email);
+            } catch (e) {
+                const input = document.createElement('input');
+                input.value = email;
+                document.body.appendChild(input);
+                input.select();
+                document.execCommand('copy');
+                input.remove();
+            }
+            copyStatus.textContent = 'Đã sao chép';
+            setTimeout(() => { copyStatus.textContent = ''; }, 2500);
         });
-
-        function closeMobileNav() {
-            mobileNavMenu.classList.add('hidden');
-        }
-
-        // Executive Modal Controls
-        function openExecutiveModal() {
-            document.getElementById('executiveModal').classList.remove('hidden');
-        }
-        function closeExecutiveModal() {
-            document.getElementById('executiveModal').classList.add('hidden');
-        }
-
-        // Toast Notification System
-        function showToast(message) {
-            const toast = document.getElementById('toastMessage');
-            const toastText = document.getElementById('toastText');
-            toastText.textContent = message;
-            toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
-
-            setTimeout(() => {
-                toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
-            }, 3000);
-        }
-
-        // Safe Clipboard Copying Function
-        function copyToClipboard(text, successMsg) {
-            const tempInput = document.createElement('input');
-            tempInput.value = text;
-            document.body.appendChild(tempInput);
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
-            showToast(successMsg);
-        }
-
-        // Form Submission Handler
-        function handleRecruiterSubmit(e) {
-            e.preventDefault();
-            showToast('Lời mời phỏng vấn đã được ghi nhận và gửi thành công!');
-            e.target.reset();
-        }
     </script>
-
 </body>
 </html>
